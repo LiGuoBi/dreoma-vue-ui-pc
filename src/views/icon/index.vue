@@ -3,7 +3,7 @@
   <div>
     <el-card class="box-card">
       <div slot="header" class="clearfix">
-        <span>首页轮播图1</span>
+        <span>图标列表</span>
       </div>
       <!-- 组件 -->
       <ul class="icon-list">

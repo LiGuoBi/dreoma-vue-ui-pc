@@ -1,6 +1,4 @@
-# dreoma-vue-ui-pc
-
-## [Preview](https://liguobi.github.io/dreoma-vue-ui-pc/dist/#/home/index)
+# [dreoma-vue-ui-pc Preview](https://liguobi.github.io/dreoma-vue-ui-pc/dist/#/home/index)
 
 ## Project setup
 ```
