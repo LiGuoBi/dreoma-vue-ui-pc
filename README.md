@@ -1,5 +1,7 @@
 # dreoma-vue-ui-pc
 
+## [Preview](https://liguobi.github.io/dreoma-vue-ui-pc/dist/#/home/index)
+
 ## Project setup
 ```
 npm install
@@ -24,6 +26,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
