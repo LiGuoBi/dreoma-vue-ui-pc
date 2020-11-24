@@ -1,0 +1,195 @@
+body {
+  font-size: $fs-base;
+  font-family: "Microsoft YaHei", "Avenir", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: $black;
+}
+
+div,
+section,
+footer,
+header,
+p,
+a,
+footer,
+dl,
+dt,
+dt,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+p,
+dl,
+dd,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: $black;
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border: none;
+}
+
+input,
+button,
+textarea {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+// 设置框中的提示文本居中 IOS
+input,
+textarea {
+  line-height: normal;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+
+// flex布局 API:https://www.runoob.com/w3cnote/flex-grammar.html
+// 垂直方向居中
+.flex-v {
+  display: flex;
+  align-items: center;
+}
+
+// 水平方向居中
+.flex-l {
+  display: flex;
+  justify-content: center;
+}
+
+// 垂直水平方向居中
+.flex-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// 换行显示
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// flex 布局
+.flex {
+  display: flex;
+}
+// flex-direction 属性决定主轴的方向（即项目的排列方向）
+// 主轴为垂直方向，起点在上沿
+.column {
+  flex-direction: column;
+}
+// 水平-相反
+.row-reverse {
+  flex-direction: row-reverse;
+}
+// 垂直-相反
+.column-reverse {
+  flex-direction: column-reverse;
+}
+// justify-content属性定义了项目在主轴上的对齐方式。
+// 两端对齐，项目之间的间隔都相等
+.between {
+  justify-content: space-between;
+}
+// 每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍
+.around {
+  justify-content: space-around;
+}
+// 水平右对齐
+.l-end {
+  justify-content: flex-end;
+}
+// align-items属性定义项目在交叉轴上如何对齐。
+
+// flex 占满剩余空间
+.flex-item {
+  flex: 1;
+}
+
+// 文本通用样式
+.single-txt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.multiline-txt {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.ovh {
+  overflow: hidden;
+}
+// end 文本通用样式
+
+// 图片样式
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+// 图片高度100%
+.pich {
+  height: 100%;
+}
+img.cover {
+  object-fit: cover;
+}
+
+// 切换动画
+// 淡入淡出
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+// 切换动画 end
+
+// 项目公共样式
+#app {
+  min-width: 1200px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
