@@ -1,7 +1,7 @@
 module.exports = {
   productionSourceMap: false,
   assetsDir: 'static',
-  publicPath: process.env.NODE_ENV === 'production' ? '/dreoma-vue-ui-pc/dist/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
   css: {
     loaderOptions: {
       // 给 sass-loader 传递选项
